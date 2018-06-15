@@ -13,5 +13,5 @@ get '/hello/:name' => sub {
 };
 
 #inventory->to_app;
-default->to_app;
+#default->to_app;
 start;
