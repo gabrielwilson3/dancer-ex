@@ -8,8 +8,8 @@ use Dancer2;
 use default;
 
 
-get '/hello/:name' => sub {
-    return "Hi there " . route_parameters->get('name');
+any '/' => sub {
+    return "<h1>Hi there!</h1>";
 };
 
 #inventory->to_app;
