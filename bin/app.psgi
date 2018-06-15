@@ -9,7 +9,7 @@ use default;
 
 
 any '/' => sub {
-    return "<h1>Hi there!  It works!</h1>";
+    return "<h1>Hi there!  It works! ...and another edit</h1>";
 };
 
 #inventory->to_app;
